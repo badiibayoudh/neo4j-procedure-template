@@ -1,0 +1,85 @@
+
+***********************************************
+Test with
+  - Input file: snapshot_extract_1level.json
+  - endItem: C205
+  - Query: Match(o:Occurence{occId:"dXNyX3dndWIwMDAwMDAwOUI1MDI3RkE3"}) where "C205" in o.endItem
+RETURN example.toJson(o, "C205") AS result
+  -Test file: snapshot_extract_1level.json
+
+Parsing Json startet at: 2024/06/03 12:00:47
+Parsing Json endet at: 2024/06/03 12:00:58
+Saving structure in DB endet at: 2024/06/03 12:02:11
+Get query result from DB endet at: 2024/06/03 12:02:34
+***********************************************
+Test with
+  - Input file: snapshot_extract_1level.json
+  - endItem: C205
+  - Query: Match(o:Occurence{occId:"dXNyX3dndWIwMDAwMDAwOUI1MDI3RkE3"}) where "C205" in o.endItem
+RETURN example.toJson(o, "C205") AS result
+  -Test file: snapshot_extract_1level.json
+
+Parsing Json startet at: 2024/06/03 12:34:11
+Parsing Json endet at: 2024/06/03 12:34:11
+Saving structure in DB endet at: 2024/06/03 12:39:04
+Get query result from DB endet at: 2024/06/03 12:39:13
+***********************************************
+Test with
+  - Input file: snapshot_extract_1level.json
+  - endItem: C205
+  - Query: Match(o:Occurence)-[ro:HAS_Object]->(obj:Object) where obj.LDisplayedName="C205, 0001.011, C-KLASSE BR 205" AND "C205" in obj.endItem AND "C205" in ro.endItem AND "C205" in o.endItem
+RETURN example.toJson(o, "C205") AS result
+  -Test file: extract_1level.json
+
+Parsing Json startet at: 2024/06/03 12:40:41
+Parsing Json endet at: 2024/06/03 12:40:41
+Saving structure in DB endet at: 2024/06/03 12:40:41
+Get query result from DB endet at: 2024/06/03 12:40:42
+***********************************************
+Test with
+  - Input file: snapshot_extract_1level.json
+  - endItem: C205
+  - Query: Match(o:Occurence{occId:"dXNyX3dndWIwMDAwMDAwOUI1MDI3RkE3"}) where "C205" in o.endItem
+RETURN example.toJson(o, "C205") AS result
+  -Test file: snapshot_extract_1level.json
+
+Parsing Json startet at: 2024/06/03 13:20:13
+Parsing Json endet at: 2024/06/03 13:20:13
+Saving structure in DB endet at: 2024/06/03 13:20:21
+Get query result from DB endet at: 2024/06/03 13:20:22
+***********************************************
+Test with
+  - Input file: snapshot_extract_1level.json
+  - endItem: C205
+  - Query: Match(o:Occurence)-[ro:HAS_Object]->(obj:Object) where obj.LDisplayedName="C205, 0001.011, C-KLASSE BR 205" AND "C205" in obj.endItem AND "C205" in ro.endItem AND "C205" in o.endItem
+RETURN example.toJson(o, "C205") AS result
+  -Test file: extract_1level.json
+
+Parsing Json startet at: 2024/06/03 13:22:51
+Parsing Json endet at: 2024/06/03 13:23:39
+Saving structure in DB endet at: 2024/06/03 13:24:08
+Get query result from DB endet at: 2024/06/03 13:24:09
+***********************************************
+Test with
+  - Input file: snapshot_extract_1level.json
+  - endItem: C205
+  - Query: Match(o:Occurence{occId:"dXNyX3dndWIwMDAwMDAwOUI1MDI3RkE3"}) where "C205" in o.endItem
+RETURN example.toJson(o, "C205") AS result
+  -Test file: snapshot_extract_1level.json
+
+Parsing Json startet at: 2024/06/03 13:24:37
+Parsing Json endet at: 2024/06/03 13:24:38
+Saving structure in DB endet at: 2024/06/03 13:24:45
+Get query result from DB endet at: 2024/06/03 13:24:46
+***********************************************
+Test with
+  - Input file: snapshot_extract_1level.json
+  - endItem: C205
+  - Query: Match(o:Occurence)-[ro:HAS_Object]->(obj:Object) where obj.LDisplayedName="C205, 0001.011, C-KLASSE BR 205" AND "C205" in obj.endItem AND "C205" in ro.endItem AND "C205" in o.endItem
+RETURN example.toJson(o, "C205") AS result
+  -Test file: extract_1level.json
+
+Parsing Json startet at: 2024/06/03 13:26:51
+Parsing Json endet at: 2024/06/03 13:26:52
+Saving structure in DB endet at: 2024/06/03 13:27:00
+Get query result from DB endet at: 2024/06/03 13:27:00

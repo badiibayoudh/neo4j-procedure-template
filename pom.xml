@@ -28,9 +28,45 @@
     <maven-enforcer-plugin.version>3.4.1</maven-enforcer-plugin.version>
   </properties>
 
-  <dependencies>
+	<repositories>
+		<repository>
+			<id>struktur-graph</id>
+			<name>struktur-graph</name>
+			<url>file:D:\git\StructuredCache\struktur-graph\build\repo</url>
+		</repository>
+		
+		<repository>
+			<id>struktur_graph</id>
+			<name>struktur_graph</name>
+			<url>file:D:\git\StructuredCache\struktur-model\build\repo</url>
+		</repository>
+		
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.piterion.asplm</groupId>
+			<artifactId>struktur-model</artifactId>
+			<version>0.0.3-maven</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.17.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+			<version>2.17.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.17.1</version>
+		</dependency>
+	  
     <dependency>
-      <!-- This gives us the Procedure API our runtime code uses.
+			<!-- This gives us the Procedure API our runtime code uses.
            We have a `provided` scope on it, because when this is
            deployed in a Neo4j Instance, the API will be provided
            by Neo4j. If you add non-Neo4j dependencies to this
@@ -41,9 +77,9 @@
       <scope>provided</scope>
     </dependency>
 
-    <!-- Test Dependencies -->
+		<!-- Test Dependencies -->
     <dependency>
-      <!-- This is used for a utility that lets us start Neo4j with
+			<!-- This is used for a utility that lets us start Neo4j with
            a specific Procedure, which is nice for writing tests. -->
       <groupId>org.neo4j.test</groupId>
       <artifactId>neo4j-harness</artifactId>
@@ -58,7 +94,7 @@
     </dependency>
 
     <dependency>
-      <!-- Used to send cypher statements to our procedure. -->
+			<!-- Used to send cypher statements to our procedure. -->
       <groupId>org.neo4j.driver</groupId>
       <artifactId>neo4j-java-driver</artifactId>
       <version>${neo4j-java-driver.version}</version>
@@ -78,6 +114,13 @@
       <version>${assertj.version}</version>
       <scope>test</scope>
     </dependency>
+
+	<dependency>
+		<groupId>com.piterion.asplm</groupId>
+		<artifactId>struktur-graph</artifactId>
+		<version>0.0.8-maven</version>
+		<scope>test</scope>
+	</dependency>
 
   </dependencies>
 
@@ -115,7 +158,7 @@
         <version>${maven-surefire-plugin.version}</version>
       </plugin>
       <plugin>
-        <!-- This generates a jar-file with our procedure code,
+				<!-- This generates a jar-file with our procedure code,
              plus any dependencies marked as `compile` scope.
              This should then be deployed in the `plugins` directory
              of each Neo4j instance in your deployment.

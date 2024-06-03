@@ -1,0 +1,51 @@
+
+***********************************************
+Test with
+  - Input file: snapshot_extract_1level.json
+  - endItem: C205
+  - Query: Match(o:Occurence{occId:"dXNyX3dndWIwMDAwMDAwOUI1MDI3RkE3"}) where "C205" in o.endItem
+RETURN example.toJson(o, "C205") AS result
+  -Test file: snapshot_extract_1level.json
+
+
+Parsing Json startet at: 2024/06/02 18:09:59
+Parsing Json endet at: 2024/06/02 18:09:59
+Saving structure in DB endet at: 2024/06/02 18:10:04
+Get query result from DB endet at: 2024/06/02 18:10:05
+***********************************************
+Test with
+  - Input file: snapshot_extract_1level.json
+  - endItem: C205
+  - Query: Match(o:Occurence)-[ro:HAS_Object]->(obj:Object) where obj.LDisplayedName="C205, 0001.011, C-KLASSE BR 205" AND "C205" in obj.endItem AND "C205" in ro.endItem AND "C205" in o.endItem
+RETURN example.toJson(o, "C205") AS result
+  -Test file: extract_1level.json
+
+
+Parsing Json startet at: 2024/06/02 18:10:07
+Parsing Json endet at: 2024/06/02 18:10:07
+Saving structure in DB endet at: 2024/06/02 18:10:07
+Get query result from DB endet at: 2024/06/02 18:10:08
+***********************************************
+Test with
+  - Input file: snapshot_extract_1level.json
+  - endItem: C205
+  - Query: Match(o:Occurence{occId:"dXNyX3dndWIwMDAwMDAwOUI1MDI3RkE3"}) where "C205" in o.endItem
+RETURN example.toJson(o, "C205") AS result
+  -Test file: snapshot_extract_1level.json
+
+Parsing Json startet at: 2024/06/02 18:16:50
+Parsing Json endet at: 2024/06/02 18:16:50
+Saving structure in DB endet at: 2024/06/02 18:16:55
+Get query result from DB endet at: 2024/06/02 18:16:55
+***********************************************
+Test with
+  - Input file: snapshot_extract_1level.json
+  - endItem: C205
+  - Query: Match(o:Occurence)-[ro:HAS_Object]->(obj:Object) where obj.LDisplayedName="C205, 0001.011, C-KLASSE BR 205" AND "C205" in obj.endItem AND "C205" in ro.endItem AND "C205" in o.endItem
+RETURN example.toJson(o, "C205") AS result
+  -Test file: extract_1level.json
+
+Parsing Json startet at: 2024/06/02 18:16:58
+Parsing Json endet at: 2024/06/02 18:16:58
+Saving structure in DB endet at: 2024/06/02 18:16:58
+Get query result from DB endet at: 2024/06/02 18:16:59

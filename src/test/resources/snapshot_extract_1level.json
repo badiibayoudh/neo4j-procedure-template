@@ -1,0 +1,55 @@
+{
+  "occId": "dXNyX3dndWIwMDAwMDAwOUI1MDI3RkE3",
+  "object": {
+    "LDisplayedName": "AS_C205,ALL,V_P_223",
+    "LastUpdate": "2024/05/24-17:31:12:288",
+    "Class": "j0Struct",
+    "RootElement": "true",
+    "INPUT_PARAMETERS": {
+      "SnapshotId": "VngwMUBzbmFwc2hvdF5NSGd3TURBeVh6QXdNREU5V2paWVZ6RTVSbWgxWXpOQlNsbFBWVWcxVlV4NFJ6RldNMVZVUkdoNWNVSjJRMWhHWkhwRmVtVTNhMk41UTFwak1IUXdaa2RHT0daUGMwZHFha0Z3UjJweVoxWkhSME5OUkdjNWFtTm5UREp0VFRoWk9Ib3RUVU5OVlhSSFJGSlpPSFpEU1hoTFRXTkxjVXRtUlVvNVdIWkhTMEpyTW5WWmVFTlROR2RHVjNoVGVUQnZMVGwyUzA1QlN6VldkRTVtWDNaTVgzcGZWbmRSU2paa1JtRmtiMEp1YXpCTk9UQkRiMVZoZWtsRWF6VlFZbXBtWjJoaGJqQjNVbEZmYTFkcFNETnRTSFpRTTA4MGRYSmheZFhOeVgzZG5kV0l3TURBd01EQXdPVUkxTURJM1JrRTNeVm5nd01VQnBibk4wWVc1alpWNHdlREF3TURKZk1EQXdNVDFhTmxoWE1UbEdhSFZqTTBGS1dVOVZTRFZWVEhoSE1WWXpWVlJFYUhseFFuWkRXRVprZWtWNlpUZHJZM2xEV21Nd2REQm1SMFk0Wms5elIycHFRWEJIYW5KblZrZEhRMDFFWnpscVkyZE1NbTFOT0ZrNGVpMU5RMDFWZEVkRVVsazRka05KZUV0TlkwdHhTMlpGU2psWWRrZExRbXN5ZFZsNFExTTBaMFpYZUZONU1HOHRPWFpMVGtGTE5WWjBUbVpmZGt4ZmVsOVdkMUZLTm1SR1lXUnZRbTVyTUUwNU1FTnZWV0Y2U1VSck5WQmlhbVpuYUdGdU1IZFNVVjlyVjJsSU0yMUlkbEF6VHpSMWNtRV5eXjFeNmEzZTgyNWUxOWYzMTFlZmFjM2IwMDUwNTZiYzg2YzUtLS0tXjIwMjQvMDUvMjQtMTc6MzE6MTI6Mjg4XkFTX0MyMDUsQUxMLFZfUF8yMjNeXmd6XmZhbHNlXmZhbHNlXg",
+      "omitIrrelevantStructure": "false"
+    }
+  },
+  "children": [
+    {
+      "occId": "af464a38b99aafe81658d831077cc0c2",
+      "object": {
+        "LDisplayedName": "C205, 0001.011, C-KLASSE BR 205",
+        "PartNumber": "C205",
+        "ProjectName": "P_205",
+        "j0Nomenclature": "C-KLASSE BR 205",
+        "Nomenclature": "C-KLASSE BR 205",
+        "OBID": "yfCjSkjwgut1-usr_wgubxAg",
+        "Sequence": "11",
+        "Revision": "0001",
+        "j0RevSeq": "0001.011",
+        "Class": "j0SDiaBR"
+      },
+      "relation": {
+        "j0RelCount": "1"
+      },
+      "children": [
+        {
+          "occId": "398fb45e1bd7a1e516c3fb0f2748417d",
+          "object": {
+            "LDisplayedName": "C205 02, 0001.007, FAHRZEUG GESAMT",
+            "PartNumber": "C205 02",
+            "ProjectName": "P_205",
+            "j0Nomenclature": "FAHRZEUG GESAMT",
+            "Nomenclature": "FAHRZEUG GESAMT",
+            "OBID": "udpoi4kwgut1-usr_wgub6wE",
+            "Sequence": "7",
+            "Revision": "0001",
+            "j0RevSeq": "0001.007",
+            "Class": "j0SDHMod"
+          },
+          "relation": {
+            "OBID": "yfCjSpfwgut1-usr_wgubxAgudpoi6kwgut1-usr_wgub6wE",
+            "Class": "j2nPrdRv",
+            "j0RelCount": "1"
+          }
+		}
+	]
+	}
+   ]
+ }

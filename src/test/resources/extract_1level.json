@@ -1,0 +1,40 @@
+    {
+      "occId": "af464a38b99aafe81658d831077cc0c2",
+      "object": {
+        "LDisplayedName": "C205, 0001.011, C-KLASSE BR 205",
+        "PartNumber": "C205",
+        "ProjectName": "P_205",
+        "j0Nomenclature": "C-KLASSE BR 205",
+        "Nomenclature": "C-KLASSE BR 205",
+        "OBID": "yfCjSkjwgut1-usr_wgubxAg",
+        "Sequence": "11",
+        "Revision": "0001",
+        "j0RevSeq": "0001.011",
+        "Class": "j0SDiaBR"
+      },
+      "relation": {
+        "j0RelCount": "1"
+      },
+      "children": [
+        {
+          "occId": "398fb45e1bd7a1e516c3fb0f2748417d",
+          "object": {
+            "LDisplayedName": "C205 02, 0001.007, FAHRZEUG GESAMT",
+            "PartNumber": "C205 02",
+            "ProjectName": "P_205",
+            "j0Nomenclature": "FAHRZEUG GESAMT",
+            "Nomenclature": "FAHRZEUG GESAMT",
+            "OBID": "udpoi4kwgut1-usr_wgub6wE",
+            "Sequence": "7",
+            "Revision": "0001",
+            "j0RevSeq": "0001.007",
+            "Class": "j0SDHMod"
+          },
+          "relation": {
+            "OBID": "yfCjSpfwgut1-usr_wgubxAgudpoi6kwgut1-usr_wgub6wE",
+            "Class": "j2nPrdRv",
+            "j0RelCount": "1"
+          }
+		}
+	]
+	}
